@@ -8,7 +8,7 @@ This app provides an example of how the document API can be used to do searches 
 
 ![](images/app-page.png)
 
-The app also, provides a client side example of how the sorting can then be done on the Astra Side.
+The app also, provides a client side example of how the sorting can then be done.
 
 A key thing to note is that if need an order of objects then we need to use an Array instead of JSON. You may have to modify your data structure if its only JSON objects.
 
