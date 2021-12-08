@@ -1,6 +1,12 @@
+
+
 ## Sorting example Stargate Document API
 
 This app provides an example of how the document API can be used to do searches across various parameters in Astra.
+
+### Application Page
+
+![](images/app-page.png)
 
 The app also, provides a client side example of how the sorting can then be done on the Astra Side.
 
