@@ -2,7 +2,7 @@ import React from 'react'
 import './home.css';
 import Card from './Card'
 import axios from "axios"
-import { useState,useEffect } from "react"
+import { useState} from "react"
 
 const Home = () => {
 
@@ -44,8 +44,9 @@ const Home = () => {
   
   return (
     <div>
-    <div className="AccountItem">
-      <h2>Sorted Properties</h2>
+    <div className="boxItem">
+      <h1>Real Estate App - Document API Sorting Example</h1>
+      <h2>Properties can be searched by filter type and sorted from highest to smallest</h2>
         <label>Filter :
           <select value={filter} onChange={e=> setfilter(e.target.value)}>
             <option>Select</option>
